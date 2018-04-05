@@ -11,7 +11,9 @@ Mehr Infos über [Go / Golang](https://golang.org) bzw. [PROFFIX](http://www.pro
 Zeigt die gewünschte Adresse aus PROFFIX in Google Maps an. Es ist keine weitere Konfiguration erforderlich.
 
 ## Email versenden
-Versendet ein Email an die ausgewählte Adresse. Die Konfiguration erfolgt mit dem File config.json (Beispiel config.json.ex umbenennen und editieren)
+Versendet ein Email an die ausgewählte Adresse. Die Konfiguration erfolgt mit dem File config.json (Beispiel config.json.ex umbenennen und editieren). 
+
+Die config.json **muss auf derselben Ebene** sein wie die Executable.
 
 # Installation
 
