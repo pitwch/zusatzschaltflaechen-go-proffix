@@ -21,9 +21,8 @@ type Configuration struct {
 func main() {
 
 	//Read PROFFIX Zusatzfeld
-	//pxzu, err := ini.Load(os.Args[1])
-	pxzu, err := ini.Load("F:\\test.ini")
-
+	pxzu, err := ini.Load(os.Args[1])
+	
 	if err != nil {
 		fmt.Printf("Error reading Zusatzfeld: %v", err)
 		os.Exit(1)
@@ -37,8 +36,8 @@ func main() {
 }
 
 func send(email string, anrede string) {
-	//Read config.json
-	file, _ := os.Open("C:\\go-work\\src\\zusatzschaltflaechen-go-proffix\\zusatzschaltflaechen-go-proffix\\send-email\\config.json")
+	//Read config.json. Config has to be next to executable.
+	file, _ := os.Open("config.json")
 	defer file.Close()
 	decoder := json.NewDecoder(file)
 	configuration := Configuration{}
