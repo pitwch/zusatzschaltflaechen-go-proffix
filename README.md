@@ -15,6 +15,9 @@ Versendet ein Email an die ausgewählte Adresse. Die Konfiguration erfolgt mit d
 
 Die config.json **muss auf derselben Ebene** sein wie die Executable.
 
+## Module Shortcut (funktioniert nur teilweise)
+Das ändern von Feldwerten funktioniert, der angestrebte Modulwechsel (z.B. mit Verknüpfung von Adressen zu Auftrag mit vorgeladenem Dokument wechseln) funktioniert nicht bzw. wird von PROFFIX nicht unterstützt.
+
 # Installation
 
 ## Variante 1: Vorerstellter Release downloaden
